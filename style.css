@@ -1,5 +1,11 @@
 body {
 	color:blue;
 	background: black;
-	font-family: BankGothic Lt BT:
-}'
+	font-family: BankGothic Lt BT;
+	text-align: center;
+}
+
+img {
+	width: 1000px;
+	height: auto;
+}
