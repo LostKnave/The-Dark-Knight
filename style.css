@@ -9,3 +9,9 @@ img {
 	width: 1000px;
 	height: auto;
 }
+
+h1{
+	font-size: 80px;
+	font-weight: bolder;
+	text-decoration: underline;
+	}
