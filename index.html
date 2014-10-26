@@ -14,11 +14,15 @@ Because he's not our hero. He's a silent guardian, a watchful protector. A dark 
 <p>click <a href="http://www.dccomics.com/characters/batman" target="_blank">here</a></p>
 <br/>
 <img src="http://www.themoviethemesong.com/wp-content/uploads/2014/04/The-Dark-Knight-Theme-Song-91.jpg">
-<audio autoplay controlsvolume=.5 src="Desktop/The%20Dark%20Knight%20Theme.mp3"></audio>
+<audio id="player" autoplay loop controlsvolume=.5 src="Desktop/The%20Dark%20Knight%20Theme.mp3"></audio>
+
 <div>
-	<button onclick="document.getElementbyId('player').play()">Play</button>
-	<button onclick="document.getElementbyId('player').pause()">Pause</button>
-	<button onclick="document.getElementbyId('player').muted=!document.getElementbyId('player').muted">Mute/ Unmute</button>
-</div>
+	<button onclick="document.getElementById('player').play()">Play</button>
+	<button onclick="document.getElementById('player').pause()">Pause</button>
+	<button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
+	<button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
+</div> 
+
+
 </body>
 </html>
