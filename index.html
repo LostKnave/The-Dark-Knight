@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 
 <html lang="EN-US">
-<head>
 
-<title>The Dark Knight</title>
+<head>
+<title>Gotham City</title>
 <link rel= "stylesheet" href= "style.css"/>
 </head>
 
 <body>
-<h1>The Dark Knight</h1>
+<h1>Gotham City</h1>
 <p>"He's the hero Gotham deserves, but not the one it needs right now. So we'll hunt him. Because he can take it. 
 Because he's not our hero. He's a silent guardian, a watchful protector. A dark knight." - Jim Gordon in The Dark Knight </p
 <p>click <a href="http://www.dccomics.com/characters/batman" target="_blank">here</a></p>
 <br/>
 <img src="http://www.themoviethemesong.com/wp-content/uploads/2014/04/The-Dark-Knight-Theme-Song-91.jpg">
-<audio id="player" autoplay loop controlsvolume=.5 src="Desktop/The%20Dark%20Knight%20Theme.mp3"></audio>
+<div id="navigation">
+		<ul><li><a href="Heroes.html">Heroes</a>
+				<ul><li>The Dark Knight</li><li>Catwoman</li><li>Jim Gordon</li><li>Alfred Pennyworth</li></ul>
+			</li>
+			<li>
+				<a href="#">Villains</a>
+				<ul><li>Scarecrow</li><li>The Joker</li><li>Bane</li><li>Ra's Al Ghul</li></ul>
+			</li>
+		</ul>
+</div>	
 
+
+	
+<audio id="player" autoplay loop controlsvolume=.5 src="Desktop/The%20Dark%20Knight%20Theme.mp3"></audio>
 <div>
 	<button onclick="document.getElementById('player').play()">Play</button>
 	<button onclick="document.getElementById('player').pause()">Pause</button>
 	<button onclick="document.getElementById('player').volume+=0.1">Volume Up</button>
 	<button onclick="document.getElementById('player').volume-=0.1">Volume Down</button>
 </div> 
-
-
 </body>
+
 </html>

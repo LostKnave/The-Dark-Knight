@@ -1,6 +1,8 @@
 body {
 	color:blue;
-	background: black;
+	background:black;
+	background-size:cover;
+	background-position:center;
 	font-family: BankGothic Lt BT;
 	text-align: center;
 }
@@ -15,3 +17,15 @@ h1{
 	font-weight: bolder;
 	text-decoration: underline;
 	}
+
+button{
+	Background: Black;
+	Color: White;
+	Border-radius: 50%;
+	Border: 1px solid blue;
+	Cursor: pointer
+	}
+
+ul li {list-style: none;}
+	
+}\
